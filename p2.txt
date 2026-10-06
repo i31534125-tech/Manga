@@ -59,7 +59,7 @@ class _HomeScreenState extends State<HomeScreen> {
 
   String scriptName(OcrScript s) => switch (s) {
     OcrScript.japanese => 'Japonês',
-    OcrScript.latin => 'Português/Latim',
+    OcrScript.inglês => 'Português/inglês',
     OcrScript.chinese => 'Chinês',
     OcrScript.devanagari => 'Devanágari',
     OcrScript.korean => 'Coreano',
@@ -67,7 +67,7 @@ class _HomeScreenState extends State<HomeScreen> {
 
   String langCode(OcrScript s) => switch (s) {
     OcrScript.japanese => 'ja',
-    OcrScript.latin => 'en',
+    OcrScript.ingles => 'en',
     OcrScript.chinese => 'zh-CN',
     OcrScript.devanagari => 'hi',
     OcrScript.korean => 'ko',
