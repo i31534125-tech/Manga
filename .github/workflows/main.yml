@@ -3,7 +3,7 @@ name: Gerar APK
 on:
   push:
     branches: [main]
-    paths: ["p3.txt"]
+    paths: ["p3.txt", ".github/workflows/main.yml"]
   workflow_dispatch:
 
 permissions:
